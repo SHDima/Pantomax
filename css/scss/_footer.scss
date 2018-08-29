@@ -1,0 +1,45 @@
+.footer{
+	background-image: url('../../img/bgfooter.png');
+    background-position: rightem;
+    margin-top: 60px;
+	background-repeat: no-repeat;
+	z-index: 111111;
+	position: relative;
+	border-radius: 10px;
+	position: relative;
+	padding: 40px;
+	background-color: #FFF;
+	overflow:hidden;
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+	&_img{
+		position: absolute;
+		right:-57px;
+		bottom: -26px;
+	}
+	p{
+		font-family: 'PT Sans', sans-serif;
+		color:		#000000;
+		font-size: 15.99px;
+		font-weight: 400;
+		width:65%;
+	}
+	&_span{
+		font-family: 'PT Sans', sans-serif;
+		color:	#000000;
+		font-size: 15.99px;
+		font-weight: 700;
+		display: inline-block;
+		margin-right: 40px;
+	}
+}
+h4{
+	font-family: 'PT Sans', sans-serif;
+	color: #000000;
+	font-size: 47.82px;
+	font-weight: 700;
+	text-transform: uppercase;
+   span{
+   	color: #fc481a;
+   }
+}

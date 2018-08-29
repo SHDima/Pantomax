@@ -1,0 +1,47 @@
+.advantage{
+	&_content{
+			padding-top: 45px;
+			font-family: 'PT Sans', sans-serif;
+			color: #ffffff;
+			font-size: 40.82px;
+			line-height: 60.084px;
+			text-transform: uppercase;
+		     text-align: center;
+		     margin-bottom: 0;
+		    span{
+		    	color: #fc481a;
+		    }
+	}
+	&_img{
+		position: absolute;
+		left: -50px;
+		z-index:0;
+		top:50px;
+	}
+	&_container{
+		z-index: 1111;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 15px;
+		&_img{
+		  background-color: #FFF;
+		  border-radius: 12px;
+		  margin-right: 15px;
+		  overflow: hidden;
+		  width:200px;
+		}
+		&_content{
+			width: 100%;
+			height:81px;
+			text-align: center;
+			font-family: 'PT Sans', sans-serif;
+			color:		#0b0b0b;
+			font-size: 15.91px;
+			font-weight: 700;
+			padding: 10px;
+			margin-bottom: 0;
+		}
+	}
+
+}
